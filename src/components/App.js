@@ -28,6 +28,7 @@ function App() {
       <Home/>
       <Book/>
       <Gallery/>
+      <AboutUs/>
       <Footer/>
     </div>
   );
