@@ -3,7 +3,7 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 import Home from './Home';
 import AboutUs from './AboutUs';
-import Books from './Book';
+import Book from './Book';
 import Gallery from './Gallery';
 
 
@@ -25,7 +25,10 @@ function App() {
         </a>
       </header> */}
       <NavBar/>
-      <Home />
+      <Home/>
+      <Book/>
+      <Gallery/>
+      <Footer/>
     </div>
   );
 }
