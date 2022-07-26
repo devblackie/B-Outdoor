@@ -1,9 +1,10 @@
-import React from 'react';
+import React from 'react'; 
+// import logo from './Assets/Essesntials/boutprofile.jpg';
 
 export default function NavBar() {
     return (
         <div className="navbar">
-            <a href="#" className="App-logo"><img src="src/Assets/Essesntials/Studio_Project.svg"></img></a>
+            {/* <img className="App-logo" src={logo} alt="logo" /> */}
             <div className="navbar-inner">
                 <a href="#">Home</a>
                 <a href="#">Book</a>
