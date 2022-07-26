@@ -3,7 +3,7 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 import Home from './Home';
 import AboutUs from './AboutUs';
-import Book from './Book';
+import Book from './Book'; 
 import Gallery from './Gallery';
 
 
