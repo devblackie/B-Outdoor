@@ -81,3 +81,41 @@ code {
 }
 
 /* Navbar component ends*/
+/* Footer component*/
+.footer{
+  
+	position: fixed;
+  bottom:0; left:0;right:0;
+	background: #001219;
+	border-top-right-radius:;
+}
+.footer .box-container{
+	display: flex;
+  flex-wrap: wrap;
+  padding: 7px;
+
+}
+.footer .box-container .box{
+	padding: 1px;
+	flex: 7px;
+}
+.footer .box-container .box h3{
+	font-size:0 2rem;
+	color: #f1f2f3;
+}
+
+.footer .box-container .box p{
+	padding: 1rem;
+	color: #f1f2f3;
+}
+.footer .box-container .box a{
+	display: block; 
+	padding: 1px;
+	color: #f1f2f3;
+	text-decoration: none;	
+}
+.footer .box-container .box a:hover{
+	color: #ff8c00;
+}	
+
+/* Footer component ends */

@@ -9,6 +9,7 @@ export default function NavBar() {
                 <a href="#">Home</a>
                 <a href="#">Book</a>
                 <a href="#">Gallery</a>
+                <a hrref="#">About us</a>
             </div>
             <form className="search-bar-container">
                 <input type="text" id="search-bar-input" placeholder="Search"></input>
