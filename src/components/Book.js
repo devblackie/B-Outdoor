@@ -19,6 +19,22 @@ export default function Book() {
                 </div>
                 <div className="form-input">
                     <label>Pick up location</label>
+                    <select className="pul" required>
+                        <option>Kencom</option>
+                        <option>ABC</option>
+                        <option>Thika</option>
+                    </select>
+                </div>
+                <div className="form-input">
+                    <label>Phone Number:</label>
+                    <input type="tel" name="WhatsApp Number" required/>
+                </div>
+                <div className="form-input">
+                    <label>Number of Slots:</label>
+                    <input type="number" name="Number of Slots" min="1" required/>
+                </div>
+                <div className="form-input">
+                    <button className="btn" type="submit" name="Book slots">Book Slot</button>
                 </div>
             </form>
 
