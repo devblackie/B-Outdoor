@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 import NavBar from './NavBar';
+import Book from './Book';
 
 
 export default function Home() {
@@ -13,7 +14,8 @@ export default function Home() {
                 <a href="#" className="btn">discover more</a>
             
             </div>
-            <Footer />
+            <Book />
+            {/* <Footer /> */}
             
         </div>
         
