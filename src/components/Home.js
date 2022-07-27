@@ -1,5 +1,7 @@
 import React from 'react';
+import Footer from './Footer';
 import NavBar from './NavBar';
+
 
 export default function Home() {
     return (
@@ -11,6 +13,7 @@ export default function Home() {
                 <a href="#" className="btn">discover more</a>
             
             </div>
+            <Footer />
             
         </div>
         

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url();
 }
 
 code {
@@ -55,7 +56,7 @@ code {
 .navbar{
 	position: fixed;
 	top: 0; left: 0; right: 0;
-	background: #001219; 
+	background:rgb(223, 103, 47); 
 	z-index: 1000;
 	display: flex;
 	align-items: center;
@@ -63,6 +64,9 @@ code {
 	justify-content: space-between;
 	padding: 2rem 3%;
 	border-bottom-left-radius: 70%;  
+}
+.navbar .App-logo {
+  background-image: url();
 }
 .navbar .navbar-inner a{
 	color: white;
@@ -73,7 +77,7 @@ code {
 	transition: all 0.2s ease 0s;
 }
 .navbar .navbar-inner a:hover{
-	color: orangered;
+	color: green;
 }
 
 /* Navbar component ends*/
