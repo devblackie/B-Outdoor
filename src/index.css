@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url();
+  background: url(./Assets/Essentials/pexels-marcin-dampc-1684187.jpg);
+  object-fit: cover;
 }
 
 code {
@@ -140,11 +141,11 @@ code {
 	color: orangered;
 }
 .Book form .form-input{
-	padding: .5rem 0rem;
+	padding: .1rem 0rem;
 }
 .Book form .form-input input{
 	width: 30%;
-	border: 1rem solid #f5f8f9;
+	border: 2px solid #f5f8f9;
 	border-radius: .5rem;
 	font-size: 1rem;
 	color: orangered;
