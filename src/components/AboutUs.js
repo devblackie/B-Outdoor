@@ -13,6 +13,7 @@ export default function AboutUs() {
 		     <span>C</span>
 		     <span>T</span>
 	       </h1>
+         
 
 	    </div>
     );
