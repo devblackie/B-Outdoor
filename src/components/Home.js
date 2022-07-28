@@ -13,7 +13,7 @@ export default function Home() {
     
     return (
         <div className="home" style={{backgroundImage:`url(${homePicture})`,backgroundSize:"cover"}}>
-            <NavBar />
+            {/* <NavBar /> */}
             <div className="content">
                 <h3>Fitness bonding Adventure</h3>
                 <p>Achieve new fitness levels, bond, discover new places with us</p>

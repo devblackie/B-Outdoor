@@ -1,20 +1,32 @@
-import React from 'react';
+import React,{useState, useEffect}from 'react';
 import { NavLink } from 'react-router-dom';
+import Gallpad from './Gallpad';
 
 export default function Gallery() {
 
-    // const[display, setDisplayed] =useState("")
+    const[display, setDisplayed] =useState([])
 
-// useEffect(() => {
-//   fetch(url) 
-//     .then((r) => r.json())
-//     .then((data) => setDisplayed(data)); 
-// }, []);
+useEffect(() => {
+  fetch("http://localhost:3000/event") 
+    .then((r) => r.json())
+    .then((data) => setDisplayed(data)); 
+}, []);
 
-// console.log(display)
+const picture = display.map((pic)=> {
+    return (
+        <Gallpad 
+        image= {pic.image}
+        location ={pic.location}
+        amount ={pic.amount}
+        />
+    );
+}) 
+
+console.log(display)
     return (
         <div className="gallery">
             <h1 className="heading">
+               
                 <span>g</span>
                 <span>a</span>
                 <span>l</span>
@@ -23,6 +35,8 @@ export default function Gallery() {
                 <span>r</span>
                 <span>y</span>
             </h1>
+            {picture}
+            
             
         </div>
     );
