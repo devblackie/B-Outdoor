@@ -1,13 +1,14 @@
 import React,{useState, useEffect}from 'react';
 import { NavLink } from 'react-router-dom';
 import Gallpad from './Gallpad';
+import homePicture from './Assets/Essentials/pexels-capture-blinks-285598.jpg';
 
 export default function Gallery() {
 
     const[display, setDisplayed] =useState([])
 
 useEffect(() => {
-  fetch("http://localhost:3000/event") 
+  fetch("https://blackapi.herokuapp.com/event") 
     .then((r) => r.json())
     .then((data) => setDisplayed(data)); 
 }, []);
@@ -24,7 +25,7 @@ const picture = display.map((pic)=> {
 
 console.log(display)
     return (
-        <div className="gallery">
+        <div className="gallery" style={{backgroundImage:`url(${homePicture})`,backgroundSize:"cover"}}>
             <h1 className="heading">
                
                 <span>g</span>

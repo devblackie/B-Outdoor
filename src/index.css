@@ -94,10 +94,9 @@ code {
 /* Navbar component ends*/
 /* Footer component*/
 .footer{
-  
-	
+    margin-left: 0%;
 	background: #001219;
-	border-top-right-radius:;
+	border-top-right-radius:40%;
 }
 .footer .box-container{
 	display: flex;
@@ -107,7 +106,7 @@ code {
 }
 .footer .box-container .box{
 	padding: 1px;
-	flex: 7px;
+	flex:;
 }
 .footer .box-container .box h3{
 	font-size:0 2rem;
@@ -173,3 +172,38 @@ code {
 
 
 /* Book component */
+/* Gallery */
+.btn-1{
+	border-radius: .7rem;
+	background: #ff8c00;
+	padding: 1rem;
+	text-transform: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.btn-1 .nav-link{
+	text-transform: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #001e2a;
+}
+
+/* Gallery ends */
+/* Spanned headings */
+.heading{
+	text-align: center;
+	padding: 2.3rem 0;
+}
+.heading span{
+	font-size: 2rem;
+	background: #ff8c00;
+	color: #001e2a;
+	border-radius: .5rem;
+	padding: .7rem 1rem;
+	/*direction: inline-block;*/
+}
+.heading .space{
+	background: none;
+}
+
+/* Spanned headings  end */
