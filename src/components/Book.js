@@ -35,6 +35,7 @@ export default function Book() {
                 </div>
                 <div className="form-input">
                     <button className="btn" type="submit" name="Book slots">Book Slot</button>
+                    <button className="btn" type="reset" name="reset">Reset</button>
                 </div>
             </form>
 
