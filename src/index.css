@@ -37,6 +37,7 @@ code {
 	flex-flow: column;
 	position: relative;
 	z-index: 0;
+	overflow: scroll;
 }
 .home .content{
 	text-align: center;
@@ -64,13 +65,16 @@ code {
 	text-transform: uppercase;
 	justify-content: space-between;
 	padding: 2rem 3%;
-	border-bottom-left-radius: 70%;  
+	height: 50px;
+    border-bottom-left-radius: 50%;  
+	
 }
 .navbar .App-logo {
-  background-image: url();
+  border-radius: 50%;
+  height: 150px;
 }
 .navbar .navbar-inner a{
-	color: white;
+	color: rgb(226, 12, 12);
 	font-size: 1.5rem;
 	margin:0 .8rem;
 	text-transform: uppercase;
