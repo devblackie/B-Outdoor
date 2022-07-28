@@ -14,11 +14,11 @@ code {
     monospace;
 }
 /* Home page starts here*/
-.btn:hover{
+.btn .nav-link:hover{
   color: white;
 }
 .btn{
-  display: inline-block;
+    display: inline-block;
 	height: -3px;
 	margin-top: rem;
 	background: #ff8c00;
@@ -28,6 +28,13 @@ code {
 	cursor: pointer;
 	font-style: bold;
 	text-decoration: none;
+}
+.btn .nav-link{
+	color: #001219;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 .home{
 	min-height: 100vh;
@@ -74,7 +81,7 @@ code {
   height: 150px;
 }
 .navbar .navbar-inner a{
-	color: rgb(226, 12, 12);
+	color: rgb(206, 187, 187);
 	font-size: 1.5rem;
 	margin:0 .8rem;
 	text-transform: uppercase;

@@ -1,6 +1,17 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default function Gallery() {
+
+    // const[display, setDisplayed] =useState("")
+
+// useEffect(() => {
+//   fetch(url) 
+//     .then((r) => r.json())
+//     .then((data) => setDisplayed(data)); 
+// }, []);
+
+// console.log(display)
     return (
         <div className="gallery">
             <h1 className="heading">

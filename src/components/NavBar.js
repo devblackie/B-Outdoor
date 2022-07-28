@@ -1,6 +1,6 @@
 import React from 'react';    
 import logo from './Assets/Essentials/boutprofile.jpg';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
 
 export default function NavBar() {
@@ -17,9 +17,11 @@ export default function NavBar() {
                 <NavLink className="nav-link " to='/book'>
              Book
       </NavLink>
+      <NavLink className="nav-link " to='/gallery'>
+             Gallery
+      </NavLink>
                 </a>
-                <a href="#">Gallery</a>
-                <a hrref="#">About us</a>
+                <a href="#">About us</a>
             </div>
             <form className="search-bar-container">
                 <input type="text" id="search-bar-input" placeholder="Search"></input>
