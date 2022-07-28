@@ -1,5 +1,6 @@
 import React from 'react';    
 import logo from './Assets/Essentials/boutprofile.jpg';
+import { NavLink } from 'react-router-dom'
 
 
 export default function NavBar() {
@@ -7,8 +8,16 @@ export default function NavBar() {
         <div className="navbar">
             <img className="App-logo" src={`${logo}`}/>
             <div className="navbar-inner">
-                <a href="#">Home</a>
-                <a href="#">Book</a>
+                <a href="#">
+                <NavLink className="nav-link " to='/'>
+             Home
+      </NavLink>
+                </a>
+                <a href="#">
+                <NavLink className="nav-link " to='/book'>
+             Book
+      </NavLink>
+                </a>
                 <a href="#">Gallery</a>
                 <a hrref="#">About us</a>
             </div>
