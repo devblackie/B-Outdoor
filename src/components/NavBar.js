@@ -5,7 +5,7 @@ import logo from './Assets/Essentials/boutprofile.jpg';
 export default function NavBar() {
     return (
         <div className="navbar">
-            <div style={{backgroundImage:`url(${logo})`}}><img /></div> 
+            <img className="App-logo" src={`${logo}`}/>
             <div className="navbar-inner">
                 <a href="#">Home</a>
                 <a href="#">Book</a>
