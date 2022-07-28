@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import Gallery from './Gallery';
+// import Gallery from './Gallery';
 import Home from './Home';
 
 
@@ -22,8 +22,8 @@ console.log(display)
     <div>
       <Home />
 
-{   display.map((data) =>    <Gallery display={data}/>)
-}      
+{/* {   display.map((data) =>    <Gallery display={data}/>)
+}       */}
     </div>
   );
 } 

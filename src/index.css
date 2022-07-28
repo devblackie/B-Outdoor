@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url(./Assets/Essentials/pexels-marcin-dampc-1684187.jpg);
+  background: url();
   object-fit: cover;
 }
 
@@ -85,8 +85,7 @@ code {
 /* Footer component*/
 .footer{
   
-	position: fixed;
-  bottom:0; left:0;right:0;
+	
 	background: #001219;
 	border-top-right-radius:;
 }

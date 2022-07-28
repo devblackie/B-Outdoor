@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Gallery({display: }) {
+export default function Gallery() {
     return (
         <div className="gallery">
             <h1 className="heading">

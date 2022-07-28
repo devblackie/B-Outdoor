@@ -1,10 +1,11 @@
 import React from 'react';    
-import {logo} from '../Assets/data';
+import logo from './Assets/Essentials/boutprofile.jpg';
+
 
 export default function NavBar() {
     return (
         <div className="navbar">
-            <img className="App-logo" src={logo} alt="logo" />  
+            <div style={{backgroundImage:`url(${logo})`}}><img /></div> 
             <div className="navbar-inner">
                 <a href="#">Home</a>
                 <a href="#">Book</a>
