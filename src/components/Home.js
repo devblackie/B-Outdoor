@@ -1,9 +1,5 @@
 import React from 'react';
-import Footer from './Footer';
-import NavBar from './NavBar';
-import Gallery from './Gallery';
-import Book from './Book';
-import homePicture from './Assets/Essentials/pexels-marcin-dampc-1684187.jpg';
+import homePicture from './Assets/Essentials/narinder-pal-Vv0oZQ_v48Y-unsplash.jpg';
 import { NavLink } from 'react-router-dom';
 
 
@@ -16,16 +12,12 @@ export default function Home() {
             {/* <NavBar /> */}
             <div className="content">
                 <h3>Fitness bonding Adventure</h3>
-                <p>Achieve new fitness levels, bond, discover new places with us</p>
-                <a className="btn"><NavLink className="nav-link" to='/gallery'>
-             discover more
-          </NavLink></a>
+                <p><span style={{color:'white'}}>Achieve new fitness levels, bond, discover new places with us</span></p>
+                <a className="btn"><NavLink className="nav-link" to='/gallery'>discover more</NavLink></a>
                
             
             </div>
-            {/* <Book /> */}
-
-            <Footer />
+        
             
         </div>
    

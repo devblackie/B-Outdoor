@@ -51,13 +51,13 @@ code {
 }
 .home .content h3{
 	font-size: 4.5rem;
-	color: #ff8c00;
+	color:  #ff8c00;
 	text-transform: uppercase;
 	text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
 }
 .home .content p{
 	font-size: 2.5rem;
-	color: #000;
+	color:#ff8c00;
 	padding: 5rem 0;
 }
 /* Home Page  ends*/
@@ -106,7 +106,7 @@ code {
 }
 .footer .box-container .box{
 	padding: 1px;
-	flex:;
+	
 }
 .footer .box-container .box h3{
 	font-size:0 2rem;
@@ -133,6 +133,7 @@ code {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1.5rem;
+	width: 30rem;
 }
 .Book .image{
 	flex: 1 1 40rem;
@@ -141,6 +142,7 @@ code {
 	width: 100%;
 }
 .Book form{
+	width: 40px;
 	flex: 1 1 40rem;
 	padding: 2rem;
 	box-shadow: 0 1rem 2rem #001219;
@@ -159,6 +161,10 @@ code {
 	color: orangered;
 	text-transform: none;
 }
+.Book form.form-input p{
+	color: red;
+}
+
 .Book form .form-input button{
 	border-radius: .7rem;
 	color: #001e2a;
@@ -187,6 +193,44 @@ code {
 	text-transform: uppercase;
 	color: #001e2a;
 }
+.Gallpad {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+
+}
+.Gallpad .box{
+	overflow: hidden;
+	box-shadow: 0 1rem 2rem #001219;
+	border: .3rem solid #f1f2f3;
+	border-radius: .5rem;
+	flex: 1 1 30rem;
+	height: 30rem; 
+	position: relative;
+}
+.Gallpad .box img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.Gallpad .box .content{
+	position: absolute;
+	top: -100; left: 0;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background: rgba(0,0,0,.7);
+	padding: 2rem;
+	padding-top: 5rem;
+}
+.Gallpad .box:hover .content{   
+	top: 0;
+}
+.Gallpad .box .content h3{
+	 font-size: 2rem;
+	 color: #ff8c00;
+}
 
 /* Gallery ends */
 /* Spanned headings */
@@ -198,8 +242,8 @@ code {
 	font-size: 2rem;
 	background: #ff8c00;
 	color: #001e2a;
-	border-radius: .5rem;
-	padding: .7rem 1rem;
+	border-radius: .7rem;
+	padding: .8rem 1rem;
 	/*direction: inline-block;*/
 }
 .heading .space{

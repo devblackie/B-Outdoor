@@ -21,7 +21,7 @@
           "event_type":"hike",
           "location":"Williamson Hill",
           "amount":"1200 ksh",
-          "image":"Assets/media/site-images/williamson.jpeg"
+          "image":"https://images.unsplash.com/photo-1535680671320-c566e5ecddf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXQlMjBrZW55YXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
 
       },
       {
@@ -29,7 +29,7 @@
           "event_type":"teambuilding",
           "location":"Paradise Lost",
           "amount":"2100 ksh",
-          "image":"Assets/media/site-images/paradiselost.jpeg"
+          "image":"https://images.pexels.com/photos/788200/pexels-photo-788200.jpeg?auto=compress&cs=tinysrgb&w=600"
 
       },
       {
@@ -37,9 +37,14 @@
           "event_type":"team building",
           "location":"Kereita field",
           "amount":"1700 ksh",
-          "image":"Assets/media/site-images/kereita.jpeg"
+          "image":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoGCBMTExcTFRUXGBcYFxoaGhcXGhkaHBcaGBkbHBsaGhoaHysjHxwoHxocJDUkKSwuMzM1GiE3PDcxOysxMi4BCwsLDw4PHBERHTMoISgxMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMf/AABEIAMMBAwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAEDBAYCBwj/xAA/EAACAQMDAgQEAwcCBAYDAAABAhEDEiEABDEFQRMiUWEGMnGBQpGhFCNSscHR8GLhFTNy8SRDU4KDwmOSov/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACURAAICAgICAgEFAAAAAAAAAAABAhEhMRJBA1ETMmEiQnGBkf/aAAwDAQACEQMRAD8AijSGkNPGvXPJF"
 
       }
 
+  ],
+  
+  "bookSlots":[
+
   ]
+
 }
